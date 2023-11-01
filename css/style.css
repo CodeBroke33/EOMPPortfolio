@@ -67,10 +67,10 @@ main {
     background-size: cover;
 }
 
-.col {
-/* padding-top: 5rem; */
+/* .col {
+padding-top: 5rem;
 
-}
+} */
 /* About */
 #about {
     background: url('https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDrZQPVFt5tmO6QtmHmNZsWl1dbNB_9cQSvdVZ0WvCGt6rADMsXcXdLnHAUrJxxrDPaqIRfbXIMKpcgOfeth8jy1glu=w1227-h932') no-repeat;
@@ -172,4 +172,4 @@ main {
     font-weight: bolder;
   }
 
-  
+
