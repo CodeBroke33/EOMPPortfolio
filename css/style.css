@@ -12,6 +12,12 @@ body {
   height: 900vh;
   background-color: rgb(0, 51, 110);
 }
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
 nav ul li {
   display: flex;
   border: 2px solid rgba(0, 0, 0, 0.9);
@@ -31,8 +37,8 @@ nav ul li:hover {
 img {
   border: 10px solid white;
   float: left;
-  margin-right: 15px;
-  border-radius: 800%;
+  /* margin-right: 15px;
+  border-radius: 800%; */
   max-height: 500px;
   opacity: 80%;
   width: 400px;
@@ -68,7 +74,7 @@ padding-top: 5rem;
   background: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDrZQPVFt5tmO6QtmHmNZsWl1dbNB_9cQSvdVZ0WvCGt6rADMsXcXdLnHAUrJxxrDPaqIRfbXIMKpcgOfeth8jy1glu=w1227-h932")
     no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   /* border: 2px solid rgb(71, 170, 60) ; */
   display: flex;
@@ -155,5 +161,29 @@ padding-top: 5rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
   url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaAHq-nl09dDz_Yc2Q300Sd87Uai0k7DuMh24RyswwD8bs9FeWHcLUh3xJ05bdUdBiN3plic85ExP7nUpRn1cxqFBzoaUw=w1227-h932")
     no-repeat;
-background-size: cover;
+    background-size: cover;
+
 }
+
+  #skills {
+  background: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBepkSZRM2mzi4KFO1eDEw7mnW_8xgEOIZPd0_sp1a2NDP9vl5hyAFIFfIBF6yh0DLhaIZM3n5rFCrxj2Jaz5Ld6vOA3A=w1227-h932")
+    no-repeat;
+    background-size: cover;
+    background-size: 10 0%;
+   
+  
+}
+#skills div img {
+  padding: -30px;
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+} 
+
+
+
+.skill :hover {
+
+  border: white;
+}
+
