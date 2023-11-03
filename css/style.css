@@ -169,21 +169,66 @@ padding-top: 5rem;
   background: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBepkSZRM2mzi4KFO1eDEw7mnW_8xgEOIZPd0_sp1a2NDP9vl5hyAFIFfIBF6yh0DLhaIZM3n5rFCrxj2Jaz5Ld6vOA3A=w1227-h932")
     no-repeat;
     background-size: cover;
-    background-size: 10 0%;
-   
-  
-}
-#skills div img {
-  padding: -30px;
-  object-fit: cover;
-  width: 500px;
-  height: 500px;
-} 
-
-
-
-.skill :hover {
-
-  border: white;
+    background-size: 100%;  
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.skills {
+  flex-basis: 20%;
+  margin: 10px;
+}
+
+.skills img {
+  width: 100%;
+  height: auto;
+}
+
+.skills p {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.skill {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills :hover {
+
+background: lightseagreen;
+border: lightseagreen ;
+transform: scale(110%);
+}
+
+
+@media screen and (max-width: 768px) {
+  .item {
+    flex-basis: 45%;
+    background-image: hidden;
+  }
+}
+@media screen and (max-width: 480px) {
+  .item {
+    flex-basis: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.card {
+  margin: 0 15px 30px;
+}
