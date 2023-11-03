@@ -43,6 +43,7 @@ img {
   opacity: 80%;
   width: 400px;
   height: 400px;
+  object-fit: contain;
 }
 .g-col {
   max-width: 320px;
@@ -231,4 +232,103 @@ transform: scale(110%);
 
 .card {
   margin: 0 15px 30px;
+}
+
+#projects {
+
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+  url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaBWFHzOc6C1IPXuYHV90LQLalZkLxCv2kTES9LNUgMlELFc1CrRp_FnK5vP7TmmXceAUn89jJS96mukANvNvXJvuyilQQ=w1227-h932")
+    no-repeat;
+    background-size: cover;
+}
+
+.project {
+
+font-size: 3rem;
+color: white;
+
+}
+
+#testimonials {
+
+  background: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaDefATEwFOiWLKOk6lYvCwiIbTMNij6p-XTaQ4NA_5zGhby5ytvoCmMww0u4-Bw_gNCz3a_O-VuWK_ZSK5l_OYtIIHdfw=w1227-h932")
+  no-repeat;
+  background-size: cover;
+  height: 50rem
+
+}
+
+.testimonial h6 {
+
+font-size: 7rem;
+
+}
+
+
+#reachme {
+
+  background: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AK7aPaAzODYJLANcQwO-BwIOtTa4AuV0_JsFr5rtZyFwzy_Ux93GywitrW4ufMWwPzAzepjLmobG012UFPGMHiojvQMgicJEPA=w1227-h932")
+  no-repeat;
+  background-size: cover;
+  height: 55rem;
+
+}
+
+.reachmes h1{
+
+  font-size: 7rem;
+
+}
+
+.contact-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+.details {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+}
+
+.para p {
+
+font-size: 1rem;
+font-weight: 2rem;
+
 }
